@@ -28,6 +28,6 @@ A responsive and interactive Amazon-style shopping page built using **HTML**, **
 
 ## 🚀 Getting Started
 
-1. Clone the repository:
+1. Project Extracted From:
    ```bash
-   git clone https://github.com/your-username/interactive-amazon-shopping.git
+   https://youtu.be/EerdGm-ehJQ?si=tz0tJxV4Nka8y4XN
