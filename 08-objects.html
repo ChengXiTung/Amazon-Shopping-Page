@@ -34,6 +34,49 @@
             /////////////////////
             Product2.fun();
             /////////////////////
+
+            concole.log(typeof console.log); //outputs 'function'
+
+            /////////////////////
+            JSON.stringify(Product);
+            JSON.stringify(Product2);
+            /////////////////////
+
+            const jsonString = JSON.stringify(Product2);
+            JSON.parse(jsonString)
+
+            const object1 = {
+                message: 'hello'
+            }
+            const object2 = object1;
+            if(object1 !== object2) {
+                console.log('This should never happen');
+            }
+            const object3 = {
+                message: 'hello'
+            }
+            if(object1 === object3) {
+                console.log('This should never happen, pointers are different');
+            }
+            const object4 = {
+                message: 'hello',
+                price: 100
+            }
+
+            const { message: object4Message } = object4; // same as object4['message']
+            console.log(object4Message); // outputs 'hello'
+
+            const object5 = {
+                // message: message
+                message,
+                method: function function1() {
+                    console.log('Dinner is ready');
+                }
+            }
+
+            const {message, price} = object5;
+            object5.method();
+
         </script>
     </body>
 </html>
